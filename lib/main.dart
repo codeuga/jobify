@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:jobify/home_screen.dart';
+import 'package:jobify/navigation_bar.dart';
 
 void main() {
   runApp(const MyApp());
@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Jobify',
       debugShowCheckedModeBanner: false,
-      home: HomeScreen(),
+      home: NavigationMenu(),
     );
   }
 }
