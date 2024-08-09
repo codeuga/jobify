@@ -56,7 +56,6 @@ class HomeScreen extends StatelessWidget {
                   height: 30,
                 ),
                 Container(
-                  // width: double.infinity,
                   decoration: BoxDecoration(
                     color: Colors.white,
                     borderRadius: BorderRadius.circular(12),
@@ -108,6 +107,172 @@ class HomeScreen extends StatelessWidget {
                     ),
                   ),
                 ),
+                SizedBox(
+                  height: 27,
+                ),
+                Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                  children: [
+                    Text(
+                      "Suggested Job",
+                      style: GoogleFonts.plusJakartaSans(
+                        fontSize: 18,
+                        fontWeight: FontWeight.bold,
+                        color: Color(0xff1B2124),
+                      ),
+                    ),
+                    Text(
+                      "See All",
+                      style: GoogleFonts.plusJakartaSans(
+                        color: Color(0xff7F879E),
+                        fontSize: 14,
+                        fontWeight: FontWeight.w500,
+                      ),
+                    ),
+                  ],
+                ),
+                SizedBox(
+                  height: 20,
+                ),
+                Container(
+                  decoration: BoxDecoration(
+                    color: Colors.white,
+                    borderRadius: BorderRadius.circular(8),
+                  ),
+                  child: Padding(
+                    padding: EdgeInsets.symmetric(horizontal: 14, vertical: 14),
+                    child: Column(
+                      children: [
+                        Row(
+                          children: [
+                            Container(
+                              height: 48,
+                              width: 48,
+                              decoration: BoxDecoration(
+                                borderRadius: BorderRadius.circular(10),
+                                color: Color(0xffF8F8FD),
+                              ),
+                              child: Image.asset("assets/pin.png"),
+                            ),
+                            SizedBox(
+                              width: 6,
+                            ),
+                            Column(
+                              crossAxisAlignment: CrossAxisAlignment.start,
+                              children: [
+                                Text(
+                                  "Pinterest",
+                                  style: GoogleFonts.plusJakartaSans(
+                                    color: Color(0xff1B2124),
+                                    fontWeight: FontWeight.bold,
+                                    fontSize: 14,
+                                  ),
+                                ),
+                                SizedBox(
+                                  height: 6,
+                                ),
+                                Text(
+                                  "Senior UI/UX Designer",
+                                  style: GoogleFonts.plusJakartaSans(
+                                    color: Color(0xff7F879E),
+                                    fontWeight: FontWeight.w500,
+                                    fontSize: 12,
+                                  ),
+                                ),
+                              ],
+                            ),
+                            Spacer(),
+                            SvgPicture.asset("assets/save.svg")
+                          ],
+                        ),
+                        SizedBox(
+                          height: 23,
+                        ),
+                        Row(
+                          children: [
+                            SvgPicture.asset("assets/location.svg"),
+                            SizedBox(
+                              width: 8,
+                            ),
+                            Text(
+                              "California, Freelance ,WFO",
+                              style: GoogleFonts.plusJakartaSans(
+                                color: Color(0xff7F879E),
+                                fontWeight: FontWeight.w500,
+                                fontSize: 12,
+                              ),
+                            )
+                          ],
+                        ),
+                        SizedBox(
+                          height: 15,
+                        ),
+                        Row(
+                          children: [
+                            SvgPicture.asset("assets/dollar.svg"),
+                            SizedBox(
+                              width: 8,
+                            ),
+                            Text(
+                              "\$25,000",
+                              style: GoogleFonts.plusJakartaSans(
+                                color: Color(0xff1B2124),
+                                fontWeight: FontWeight.w600,
+                                fontSize: 12,
+                              ),
+                            ),
+                            Text(
+                              " /Month",
+                              style: GoogleFonts.plusJakartaSans(
+                                fontWeight: FontWeight.w600,
+                                color: Color(0xff7F879E),
+                                fontSize: 12,
+                              ),
+                            ),
+                          ],
+                        ),
+                        SizedBox(
+                          height: 20,
+                        ),
+                        Text(
+                          "Senior UI/UX Designer needed, for collaborate with team and developer as full time designer. by having good communication skills,",
+                          style: GoogleFonts.plusJakartaSans(
+                            fontSize: 12,
+                            fontWeight: FontWeight.w500,
+                            color: Color(0xff7F879E),
+                          ),
+                        ),
+                        SizedBox(
+                          height: 20,
+                        ),
+                        SizedBox(
+                          width: double.infinity,
+                          height: 38,
+                          child: TextButton(
+                            onPressed: () {},
+                            child: Text(
+                              "Apply Now",
+                              style: GoogleFonts.plusJakartaSans(
+                                fontSize: 12,
+                                fontWeight: FontWeight.bold,
+                                color: Color(0xff3860E2),
+                              ),
+                            ),
+                            style: TextButton.styleFrom(
+                              shape: RoundedRectangleBorder(
+                                borderRadius: BorderRadius.circular(8),
+                              ),
+                              side: BorderSide(
+                                color: Color(0xff3860E2),
+                                width: 1.5,
+                              ),
+                            ),
+                          ),
+                        )
+                      ],
+                    ),
+                  ),
+                )
               ],
             ),
           )
