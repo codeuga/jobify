@@ -46,12 +46,15 @@ class HomeScreen extends StatelessWidget {
                       SizedBox(
                         width: 15,
                       ),
-                      Container(
-                        height: 42,
-                        width: 42,
-                        decoration: BoxDecoration(
-                            color: Color(0xff67C1F4), shape: BoxShape.circle),
+                      CircleAvatar(
+                        backgroundImage: AssetImage("assets/frame.png"),
                       )
+                      // Container(
+                      //   height: 42,
+                      //   width: 42,
+                      //   decoration: BoxDecoration(
+                      //       color: Color(0xff67C1F4), shape: BoxShape.circle),
+                      // )
                     ],
                   ),
                   SizedBox(
@@ -305,7 +308,9 @@ class HomeScreen extends StatelessWidget {
                                   borderRadius: BorderRadius.circular(10),
                                   color: Color(0xffF8F8FD),
                                 ),
-                                child: Image.asset("assets/pin.png"),
+                                child: Image.asset(
+                                  "assets/pin.png",
+                                ),
                               ),
                               SizedBox(
                                 width: 6,
