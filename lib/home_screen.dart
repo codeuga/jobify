@@ -93,7 +93,7 @@ class HomeScreen extends StatelessWidget {
                             child: TextButton(
                               onPressed: () {},
                               child: Text(
-                                "Button",
+                                "Search",
                                 style: GoogleFonts.plusJakartaSans(
                                   color: Colors.white,
                                   fontWeight: FontWeight.bold,
