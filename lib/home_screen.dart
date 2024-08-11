@@ -47,14 +47,8 @@ class HomeScreen extends StatelessWidget {
                         width: 15,
                       ),
                       CircleAvatar(
-                        backgroundImage: AssetImage("assets/frame.png"),
-                      )
-                      // Container(
-                      //   height: 42,
-                      //   width: 42,
-                      //   decoration: BoxDecoration(
-                      //       color: Color(0xff67C1F4), shape: BoxShape.circle),
-                      // )
+                        backgroundImage: AssetImage("assets/profile.jpg"),
+                      ),
                     ],
                   ),
                   SizedBox(

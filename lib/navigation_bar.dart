@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:jobify/applied_screen.dart';
 import 'package:jobify/home_screen.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:google_fonts/google_fonts.dart';
@@ -19,7 +20,7 @@ class _NavigationMenuState extends State<NavigationMenu> {
   final List<Widget> _pages = [
     HomeScreen(),
     SearchScreen(),
-    HomeScreen(),
+    AppliedScreen(),
     MessagesScreen(),
     ProfileScreen(),
   ];
